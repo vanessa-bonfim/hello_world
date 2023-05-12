@@ -1,3 +1,4 @@
+import Footer from "components/Footer";
 import Menu from "./components/Menu";
 import AboutMe from "./pages/AboutMe";
 import Home from "./pages/Home";
@@ -12,6 +13,7 @@ function AppRoutes() {
         <Route path="/aboutme" element={<AboutMe />} />
         <Route path="*" element={<div><h1>Página não encontrada</h1></div>} />
       </Routes>
+      <Footer/>
     </BrowserRouter>
   );
 }
