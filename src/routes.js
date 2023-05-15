@@ -6,11 +6,12 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import PageDefault from "components/PageDefault";
 import Post from "components/Post";
 import NotFound from "pages/NotFound";
+import ScrollToTop from "components/ScrollToTop";
 
 function AppRoutes() {
   return (
     <BrowserRouter>
-
+      <ScrollToTop />
       <Menu />
 
       <Routes>
