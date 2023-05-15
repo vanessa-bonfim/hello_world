@@ -6,6 +6,12 @@ export default function PageDefault() {
         <main>
             <Banner/>
             <Outlet/>
+
+            {/*  
+                Para que consigamos renderizar o JSX que passamos para PaginaPadrao, devemos utilizar o children do React.
+            {children}
+            
+            */}
         </main>
     )   
 }

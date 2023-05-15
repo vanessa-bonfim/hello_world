@@ -2,7 +2,7 @@ import styles from './PostModel.module.css';
 
 export default function PostModel({ children, photoCap, title }) {
     return (
-        <article className={styles.PostModelContainer}>
+        <article className={styles.postModelContainer}>
 
             <div
                 className={styles.photoCap}
