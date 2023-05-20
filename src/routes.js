@@ -4,7 +4,7 @@ import AboutMe from "./pages/AboutMe"; // Importação do componente AboutMe
 import Home from "./pages/Home"; // Importação do componente Home
 import { BrowserRouter, Routes, Route } from "react-router-dom"; // Importação de elementos relacionados a rotas do React Router
 import PageDefault from "components/PageDefault"; // Importação do componente PageDefault
-import Post from "components/Post"; // Importação do componente Post
+import Post from "pages/Post"; // Importação do componente Post
 import NotFound from "pages/NotFound"; // Importação do componente NotFound
 import ScrollToTop from "components/ScrollToTop"; // Importação do componente ScrollToTop
 

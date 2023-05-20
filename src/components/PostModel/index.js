@@ -1,6 +1,7 @@
 import styles from './PostModel.module.css'; // Importação do arquivo CSS para estilos específicos deste componente
 
 export default function PostModel({ children, photoCap, title }) { // Declaração do componente PostModel como uma função React, recebendo as props children, photoCap e title
+    
     return (
         <article className={styles.postModelContainer}> {/* Elemento article com a classe de estilo 'postModelContainer' */}
             <div

@@ -36,8 +36,9 @@ export default function Post() { // Declaração do componente Post como uma fun
                         title={post.title} // Título do post
                     >
                         <div className="post-markdown-container"> {/* Div para exibir o conteúdo do post */}
-                            <ReactMarkdown> {/* Componente ReactMarkdown para renderizar o texto do post em Markdown */}
-                                {post.text} {/* Texto do post */}
+                            {/* Componente ReactMarkdown para renderizar o texto do post em Markdown */}
+                            <ReactMarkdown>
+                                {post.text} 
                             </ReactMarkdown>
                         </div>
 
